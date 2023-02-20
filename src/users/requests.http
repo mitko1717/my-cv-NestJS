@@ -1,0 +1,25 @@
+### Create a new user
+POST http://localhost:3000/auth/signup
+content-type: application/json
+
+{
+  "email": "second@asdf.com",
+  "password": "asdlfkajsd"
+}
+
+### find a particular user
+GET http://localhost:3000/auth/2
+
+### find all users with a given email 
+GET http://localhost:3000/auth?email=second@asdf.com
+
+### delete by id
+DELETE http://localhost:3000/auth/3
+
+### update a user
+PATCH http://localhost:3000/auth/2
+content-type: application/json
+
+{
+  "password": "updatedpassword"
+}
