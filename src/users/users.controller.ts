@@ -30,6 +30,7 @@ export class UsersController {
     ) {}
 
   @Get('/whoami')
+  // @UseGuards ensures that user is signed in before he can make a request
   @UseGuards(AuthGuard)
   whoAmI(@CurrentUser() user: User) {
     return user
