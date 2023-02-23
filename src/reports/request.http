@@ -4,9 +4,18 @@ content-type: application/json
 {
     "make": "toyota",
     "model": "corolla",
-    "year": 1982,
-    "mileage": 22000,
+    "year": 1987,
+    "mileage": 17000,
     "lng": 0,
     "lat": 0,
-    "price": 300000
+    "price": 17000
+}
+
+### approve an existing report
+
+PATCH http://localhost:3000/reports/7
+content-type: application/json
+
+{
+    "approved": false
 }
