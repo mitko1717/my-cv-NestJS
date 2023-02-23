@@ -3,8 +3,8 @@ POST http://localhost:3000/auth/signup
 content-type: application/json
 
 {
-  "email": "test0@test.com",
-  "password": "testing17"
+  "email": "test1117@test.com",
+  "password": "testing177"
 }
 
 ### sign in as an existing user
@@ -12,8 +12,8 @@ POST http://localhost:3000/auth/signin
 content-type: application/json
 
 {
-  "email": "test0@test.com",
-  "password": "testing17"
+  "email": "test1117@test.com",
+  "password": "testing177"
 }
 
 ### get the currently signed in user

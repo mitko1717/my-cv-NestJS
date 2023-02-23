@@ -1,3 +1,14 @@
+<p>
+  THIS COURSE MADE ACCORDING TO THE UDEMY
+  <a href="https://www.udemy.com/course/nestjs-the-complete-developers-guide/">COURSE</a>
+  <span>https://www.udemy.com/course/nestjs-the-complete-developers-guide/</span>
+
+  <span>it was deep dive into NextJS</span>
+</p>
+
+<br/>
+<br/>
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
